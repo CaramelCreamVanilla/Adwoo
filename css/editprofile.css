@@ -1,0 +1,87 @@
+/* The sidebar menu */
+.gridsidebar{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+.profiledetail{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 20px;
+}
+.containerprofile{
+  padding: 50px;
+}
+.box{
+  margin-top: 50px;
+  
+}
+.sidenav {
+    height: 100vh; /* Full-height: remove this if you want "auto" height */
+    width: 500px; /* Set the width of the sidebar */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    text-align: center;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    box-shadow: rgba(208, 208, 208, 0.5) 3px 3px;
+    padding-top: 50px;
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 6px 8px 6px 10px;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 20px;
+    color: #a8a8a8;
+    display: block;
+  }
+  .sidenav p {
+    /* padding: 6px 8px 6px 10px; */
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px;
+    color: #333333;
+    display: block;
+  }
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #474ed5;
+  }
+  .profiledetail p{
+    text-decoration: none;
+    font-size: 20px;
+    /* padding: 20px; */
+    color: #7e7e7e;
+    display: block;
+
+  }
+  .profiledetail h1{
+    text-decoration: none;
+    font-size: 23px;
+    color: #000000;
+    display: block;
+
+  }
+
+  .title h1{
+    text-decoration: none;
+    font-size: 25px;
+    color: #000000;
+    display: block;
+
+  }
+  /* Style page content */
+ 
+  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+.edit{
+
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 50%;
+}

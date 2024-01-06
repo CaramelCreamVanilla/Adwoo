@@ -1,0 +1,281 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+
+body {
+    background-color: #eee;
+    font-family: "Poppins", sans-serif
+}
+
+.card {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border: none;
+    height: auto;
+}
+
+.demo {
+    width: 105%
+}
+
+ul {
+    list-style: none outside none;
+    padding-left: 0;
+    margin-bottom: 0
+}
+
+li {
+    display: block;
+    float: left;
+    margin-right: 6px;
+    cursor: pointer
+}
+
+img {
+    display: block;
+    height: auto;
+    width: 100%;
+}
+hr {
+    color: #d4d4d4
+}
+
+.badge {
+    padding: 5px !important;
+    padding-bottom: 6px !important;
+}
+
+.badge i {
+    font-size: 10px
+}
+
+.profile-image {
+    width: 35px
+}
+
+.comment-ratings i {
+    font-size: 0.5px
+}
+
+.username {
+    font-size: 0.5px
+}
+
+.comment-profile {
+    line-height: 20px
+}
+
+.date span {
+    font-size: 12px
+}
+
+.btn-long {
+    padding-left: 35px;
+    padding-right: 35px
+}
+
+.buttons {
+    margin-top: 15px
+}
+
+.buttons .btn {
+    height: 46px
+}
+
+.buttons .cart {
+    border-color: skyblue;
+    color: skyblue;
+}
+
+.buttons .cart:hover {
+    background-color: skyblue !important;
+    color: #fff;
+}
+
+.buttons .buy {
+    color: #fff;
+    background-color: skyblue;
+    border-color: skyblue;
+}
+
+.buttons .buy:focus,
+.buy:active {
+    color: #fff;
+    background-color: skyblue;
+    border-color: skyblue;
+    box-shadow: none;
+}
+
+.buttons .buy:hover {
+    color: #fff;
+    background-color: rgb(0, 183, 255);
+    border-color: rgb(0, 183, 255);
+}
+
+.buttons .wishlist {
+    background-color: #fff;
+    border-color: skyblue;
+}
+
+.buttons .wishlist:hover {
+    background-color: skyblue;
+    border-color: skyblue;
+    color: #fff;
+}
+
+.buttons .wishlist:hover i {
+    color: #fff;
+}
+
+.buttons .wishlist i {
+    color: skyblue;
+}
+
+.comment-ratings i {
+    color: #f6d151
+}
+
+.followers {
+    font-size: 1px;
+    color: #d6d4d4
+}
+
+
+.bullet-text {
+    font-size: 12px
+}
+
+.my-color {
+    margin-top: 7px;
+    margin-bottom: 7px;
+    top: 0;
+    bottom: 0;
+}
+
+label.radio {
+    cursor:pointer;
+}
+
+label.radio input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+    pointer-events: none
+}
+
+label.radio span {
+    margin-bottom: 0px;
+    display: inline-block;
+    border-radius: 50%;
+    width: 1px;
+    height: 1px;
+    text-transform: uppercase;
+    transition: 0.5s all
+}
+
+label.radio .orange {
+    background-color: orange;
+    border-color: orange
+}
+
+label.radio input:checked+span {
+    color: #fff;
+    position: relative
+}
+
+label.radio input:checked+span::before {
+    opacity: 1;
+    content: '\2713';
+    position: absolute;
+    font-size: 13px;
+    font-weight: bold;
+    left: 4px
+}
+
+.card-body {
+    padding: 0.3rem 0.3rem 0.5rem;
+}
+.product-description{
+    height: 390px;
+}
+.texth{
+    color: red;
+    font-size: 17px;
+}
+h3{
+    font-weight: normal;
+    font-size: 16px;
+}
+.about span{
+    font-size: 30px;
+}
+.container-flui{
+    width: 100%;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.gg{
+    text-align: right;
+}
+.close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 32px;
+    height: 32px;
+    opacity: 0.3;
+  }
+  .close:hover {
+    opacity: 1;
+  }
+  .close:before, .close:after {
+    position: absolute;
+    left: 15px;
+    content: ' ';
+    height: 33px;
+    width: 2px;
+    background-color: #333;
+  }
+  .close:before {
+    transform: rotate(45deg);
+  }
+  .close:after {
+    transform: rotate(-45deg);
+  }
+ .imgbtn{
+    position: relative;
+    top: 5%;
+  left: 50%;
+  width: 75px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 12px;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  }
+  .imgbtn:hover{
+    background-color: black;
+  }
+  .btn1{
+        border: 2px solid rgb(255, 255, 255);
+        background-color: white;
+        color: black;
+        padding: 5px 10px;
+        font-size: 16px;
+        cursor: pointer;
+        margin-left: 825px;
+  }
+  .allview{
+    border-color: #ffffff;
+    color: red;
+  }
+  .allview:hover {
+    background: #f44336;
+    color: white;
+  }
+  

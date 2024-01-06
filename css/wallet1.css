@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@700&family=K2D:wght@700&display=swap');
+*{
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+.cart-page{
+    margin: 20px auto;
+    border-radius: 5px;
+}
+.cart-page th{
+    font-size: 20px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.cart-info{
+    display: flex;
+    flex-wrap: wrap;
+}
+th{
+    margin-right: 10px;
+    text-align: left;
+    padding: 5px;
+    color: #fff;
+    background: skyblue;
+    font-weight: normal;
+}
+td{
+    padding: 10px 5px;
+}
+td input{
+    width: 40px;
+    height: 30px;
+    padding: 4px;
+}
+td small{
+    font-size: 16px;
+}
+td p{
+    font-size: 20px;
+}
+td a{
+    color: #f44336;
+    font-size: 15px;
+    margin-top: 10px;
+}
+td img{
+    width: 100px;
+    height: 100px;
+    margin-right: 25px;
+}
+.total-price{
+    display: flex;
+    justify-content: flex-end;
+}
+.total-price table{
+    border-top: 3px solid skyblue;
+    width: 100%;
+    max-width: 200px;
+}
+.total-price p {
+    font-weight: normal;
+    color: #f44336;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 160px 160px;
+    justify-content: end;
+}
+.button{
+border-radius: 4px;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.button3 {
+    margin-right: 10px;
+    background-color: white; 
+    color: black; 
+    border: 2px solid skyblue;
+  }
+.button3:hover {
+    background-color: skyblue;
+    color: white;
+  }
+.button4 {
+    margin-left: 5px;
+    background-color: white; 
+    color: black; 
+    border: 2px solid #f44336;
+  }
+.button4:hover {
+    background-color: #f44336;
+    color: white;
+  }
+.grid-container2{
+    display: grid;
+    grid-template-columns: 160px 160px;
+    justify-content: start;
+}
+.backbutton{   
+    border-radius: 4px;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 18px;
+    padding: 20px;
+    width: 250px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+.button5 {
+    margin-left: 5px;
+    background-color: white; 
+    color: black; 
+    border: 2px solid skyblue;
+  }
+.button5:hover {
+    background-color: skyblue;
+    color: white;
+}
+.backbutton span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.4s;
+  }
+.backbutton span:after {
+    content: '\00ab';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    left: -20px;
+}
+.backbutton:hover span {
+    padding-left: 25px;
+    
+}
+.backbutton:hover span:after {
+    opacity: 1;
+    left: 0;
+}
+.updatebutton {
+    background-color: #ddd;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+  }
+.updatebutton:hover {
+    background-color: skyblue;
+    color: white;
+  }
+
+
